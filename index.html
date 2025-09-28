@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karyadigital fan_ajalah</title>
+    <link rel="icon" href="assets/fan_ajalah.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js').then(registration => {
+                console.log('Service Worker registered with scope:', registration.scope);
+            }).catch(error => {
+                console.error('Service Worker registration failed:', error);
+            });
+        });
+    }
+</script>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#karya" class="nav-link">Portfolio</a></li>
+                <li><a href="#lynk" class="nav-link">lynk</a></li>
+                <li><a href="#lab" class="nav-link">Perjalanan</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home"class="utama">
+        <div class="container">
+            <div class="utama-content">
+                <div class="utama-text">
+                    <h1 class="utama-title">Muhammad Fachri arfan</h1>
+                    <p class="utama-subtitle">membuat karya digital yang menarik perhatian bukan sekedar visual namun isi yang di sampaikan </p>
+                    <a href="#contact" class="cta-button">Tanya</a>
+                </div>
+            <div class="utama-image">
+                    <img src="assets/fan_ajalah.png" alt="logo fan_ajalah">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about"class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">saya seorang desainer grafis yang duduk di bangku smk</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya mengkhususkan diri dalam desain grafis dan branding. Tujuan saya adalah untuk menciptakan desain yang tidak hanya terlihat bagus tetapi juga memberikan pengalaman pengguna yang hebat.</p>
+                    <p>Dengan perhatian yang tajam terhadap detail dan pemahaman yang mendalam tentang kebutuhan pengguna, saya berusaha untuk memberikan solusi yang fungsional dan estetis.</p>
+                </div>
+            <div class="saya-grid">
+                    <div class="saya-item">
+                        <h3>Desain Grafis</h3>
+                        <p>Desain visual yang menarik dan komunikatif</p>
+                    </div>
+                    <div class="saya-item">
+                        <h3>Ilustrasi</h3>
+                        <p>Karya seni digital kustom</p>
+                    </div>
+                    <div class="saya-item">
+                        <h3>coding</h3>
+                        <p>cuman ketik ketik bwang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="karya" class="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">karya saya</h2>
+      <p class="section-subtitle">di bawah ini adalah beberapa karya saya</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img1">
+            <img src="assets/17.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img2">
+            <img src="assets/film.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img3">
+            <img src="assets/pancasila.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+       <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img4">
+            <img src="assets/sapi.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+       <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img5">
+            <img src="assets/grapic.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <a href="#img6">
+            <img src="assets/diam.jpg" alt="E-commerce mobile app design with modern UI">
+          </a>
+        </div>
+        <div class="portfolio-content">
+          <h3>desain murahan</h3>
+          <p>nyomot google</p>
+          <span class="portfolio-category">Poster Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="popup" id="img1">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/17.jpg" alt="">
+</div>
+<div class="popup" id="img2">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/film.jpg" alt="">
+</div>
+<div class="popup" id="img3">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/pancasila.jpg" alt="">
+</div>
+<div class="popup" id="img4">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/sapi.jpg" alt="">
+</div>
+<div class="popup" id="img5">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/grapic.jpg" alt="">
+</div>
+<div class="popup" id="img6">
+  <a href="#portfolio" class="close">&times;</a>
+  <img src="assets/diam.jpg" alt="">
+</div>
+
+    <section id="lynk"class="lynk">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">LYNK.ID</h2>
+                <p class="section-subtitle">dibeli di beli oyy </p>
+            </div>
+            <div class="lynk-isi">
+            <div class="lynk-grid">
+                    <div class="lynk-item">
+                        <h3>aSIK</h3>
+                        <p>Desain visual yang menarik dan komunikatif</p>
+                        <a href="" class="button1">beli sekarang</a>
+                    </div>
+                    <div class="lynk-item">
+                        <h3>aSIK</h3>
+                        <p>Desain visual yang menarik dan komunikatif</p>
+                        <a href="" class="button1">beli sekarang</a>
+                      </div>
+                </div>
+                <div class="lynk-img">
+                  <img src="assets/lynk.png" alt="gambar lynk">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lab" class="lab">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Perjalanan</h2>
+          <p class="section-subtitle">Yeayy</p>
+        </div>
+      <div class="timeline">
+        <div class="baris">
+        <div class="card">
+          <span class="tahun">2009</span>
+          <p>lahir.</p>
+        </div>
+        <div class="dot" ></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ayo bekerjasama</h2>
+                <p class="section-subtitle">siap untuk projek selanjutnya boy?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>ingin bertanya?</h3>
+                    <p>tanyakan apa saja yang ingin anda tanyakan ya sist</p>
+                    <div class="contact-icon">
+                        <a href="#" class="contact-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            muhammadfachriarfan7@gmail.com
+                        </a>
+                        <a href="#" class="contact-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                            wa saja boy
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <div class="form-group">
+                        <input type="hidden" name="access_key" value="4bfc45eb-9dc1-4ad5-a8ce-ff2059fcb6fa">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<div class="garis"></div>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>arfan ganteng</h3>
+                    <p>bla bla</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Follow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Follow tiktok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 3v10.5A3.5 3.5 0 1 0 13.5 17V7h3V3h-7z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 arfan ganteng. All rights reserved.</p>
+            </div>  
+        </div>
+    </footer>
+</body>
+</html>
